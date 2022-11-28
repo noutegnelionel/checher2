@@ -1,17 +1,21 @@
 .tabs {
-margin-bottom: -1px !important;
+margin-bottom: -10px !important;
 position: relative;
 color: #000000;
-background-color: #7c4e2f;
-
-
+background-color: #378d45;
+}
+.htab-content {
+padding: 1px;
+top: 197px;
+color: #000;
+background-color: 
+#b7a894; /*#f5e984  jpg3*/
 }
 .tab-content {
 padding: 80px;
 top: 197px;
 color: #000;
-background-color: #F5F5F5;
-;
+background-color:#F5F5F5/*#f5e984 */;
 }
 .tab-pane {
 display: none;
