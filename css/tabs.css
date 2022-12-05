@@ -10,6 +10,7 @@ top: 197px;
 color: #000;
 background-color: 
 #b7a894; /*#f5e984  jpg3*/
+	background: url("../images/background5.jpg");
 }
 .tab-content {
 padding: 80px;
