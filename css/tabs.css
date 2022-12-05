@@ -5,17 +5,27 @@ color: #000000;
 background-color: #378d45;
 }
 .htab-content {
-padding: 1px;
-top: 197px;
+padding: 290px;
+top:px;
 color: #000;
 background-color: 
-#b7a894; /*#f5e984  jpg3*/
+#b7a894; /*#f5e984 197 jpg3*/
+background: url("../images/background5.jpg");
+}
+.htab-content1 {
+padding: 100px;
+top:px;
+color: #000;
+background-color: 
+#b7a894; /*#f5e984 197 jpg3*/
+/*background: url("../images/background4.jpg")*/;
 }
 .tab-content {
-padding: 80px;
+padding: 100px;
 top: 197px;
 color: #000;
 background-color:#F5F5F5/*#f5e984 */;
+/*background: url("../images/background.jpg");*/
 }
 .tab-pane {
 display: none;
