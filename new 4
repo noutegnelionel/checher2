@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bulma - Tabs</title>
+        <link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon">
+        <!-- Bulma Version 0.9.0-->
+<link href="https://cdn.jsdelivr.net/npm/bulma@0.8.1/css/bulma.min.css" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+	<style>
+
+     div.dropdown-item.is-active {
+  background-color: rgba(55, 122, 195, 0.95);
+  color: #fff;
+}
+
+div.dropdown-item {
+  padding-right: 3rem;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+div.dropdown-item:hover {
+  background-color: whitesmoke;
+  color: #0a0a0a;
+}
+	#content-child {
+  flex-grow: 1;
+  width: 100%
+}
+
+#tab-container {
+  flex-direction: column;
+  height: 500px;
+  width: 100%
+}
+
+#list-child {
+  flex-grow: 0;
+  width: 100%;
+}
+    </style> 
+	 <div class="tabs is-boxed" id="tab-container">
+  <ul id="list-child">
+    <li><a>Pictures</a></li>
+    <li><a>Music</a></li>
+    <li><a>Videos</a></li>
+    <li><a>Documents</a></li>
+    <li class="dropdown is-active">
+      <div class="dropdown-trigger">
+        <a class="has-text-right custom-padding" aria-haspopup="true" aria-controls="dropdown-menu">
+            Drop Down
+          </a>
+      </div>
+
+      <div class="dropdown-menu" id="dropdown-menu" role="menu">
+        <div class="dropdown-content">
+          <div class="dropdown-item">Dropdown item</div>
+          <div class="  dropdown-item">Other dropdown item</div>
+          <div class="  dropdown-item is-active">Active dropdown item</div>
+          <div class="  dropdown-item">Other dropdown item</div>
+          <hr class="dropdown-divider" />
+          <div class="  dropdown-item">With a divider</div>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <div id="content-child">
+    content
+  </div>
+</div>
+</body>
+</html>
